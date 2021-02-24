@@ -1,9 +1,9 @@
-<div class="card border-primary mb-3" >
+<div *ngFor="let tweet of tweet" class="card border-primary mb-3" >
     
     <div class="card-body">
      
-      <p class="card-text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas vero, nihil commodi, harum ducimus iusto numquam, assumenda molestiae quod nesciunt sint? Libero nulla maiores nisi ducimus ratione? Vel, a numquam?</p>
+      <p class="card-text"> {{tweet.content}}</p>
     </div>
-    <div class="card-footer">Time: Today</div>
+    <div class="card-footer">Time:  {{tweet.date}}</div>
   </div>
   
