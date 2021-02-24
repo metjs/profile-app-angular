@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Tweet } from './tweet';
 
 @Component({
   selector: 'app-tweet-area',
@@ -8,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class TweetAreaComponent implements OnInit {
 
   constructor() { }
-
+  tweet: Tweet[] = []
   ngOnInit(): void {
   }
 
