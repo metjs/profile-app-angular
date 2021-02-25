@@ -1,17 +1,18 @@
+
 <div class="card mb-3">
-    <h3 class="card-header">Mehmet Eren Toper</h3>
+    <h3 class="card-header">{{profile["name"]}}</h3>
     <img src="https://avatars.githubusercontent.com/u/42156455?s=460&u=48f84c4e3227c9183dafdef46de650fcb826190a&v=4" class="d-block user-select-none" alt="">
     <div class="card-body">
-      <p class="card-text">Bio</p>
+      <p class="card-text">{{profile["bio"]}}</p>
     </div>
     <ul class="list-group list-group-flush">
-      <li class="list-group-item">Location: xxx</li>
-      <li class="list-group-item">Birthday : 08/31/1998</li>
+      <li class="list-group-item">Location: {{profile["location"]}}</li>
+      <li class="list-group-item">Birthday : {{profile["birthday"]}}</li>
      
     </ul>
     
     <div class="card-footer text-muted">
-     @metjs
+      @{{profile["username"]}}
     </div>
   </div>
  

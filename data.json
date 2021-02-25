@@ -3,6 +3,7 @@
         {"id":1,"name":"Mehmet Eren Toper","bio":"bio desc.....","image":"https://avatars.githubusercontent.com/u/42156455?s=460&u=48f84c4e3227c9183dafdef46de650fcb826190a&v=4","location":"İstanbul","username":"metjs","birthday":"08/31/1998"}
     ],
     "tweets":[
-        {"id":1,"senderId":1,"content":"lorem ipsum lorem lorem loremz","date":"02/24/2021"}
+        {"id":1,"senderId":1,"content":"lorem ipsum lorem lorem loremz","date":"02/24/2021"},
+  {"id":1,"senderId":1,"content":"HEEY","date":"02/24/2021"}
     ]
 }
